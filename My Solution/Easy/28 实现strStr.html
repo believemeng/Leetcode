@@ -1,0 +1,1212 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>28 实现strStr · Summary</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="wangzhebufangqi">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex-ng/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="283 移动零.html" />
+    
+    
+    <link rel="prev" href="27 移除元素.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"wangzhebufangqi","repo":"Leetcode","type":"star","size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://wangzhebufangqi.github.io" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    My Solution
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Easy
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="1 两数之和.html">
+            
+                <a href="1 两数之和.html">
+            
+                    
+                    1 两数之和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="100 相同的树.html">
+            
+                <a href="100 相同的树.html">
+            
+                    
+                    100 相同的树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="101 对称二叉树.html">
+            
+                <a href="101 对称二叉树.html">
+            
+                    
+                    101 对称二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="1030 距离顺序排列矩阵单元格.html">
+            
+                <a href="1030 距离顺序排列矩阵单元格.html">
+            
+                    
+                    1030 距离顺序排列矩阵单元格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="104 二叉树的最大深度.html">
+            
+                <a href="104 二叉树的最大深度.html">
+            
+                    
+                    104 二叉树的最大深度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.6" data-path="107 二叉树的层次遍历.html">
+            
+                <a href="107 二叉树的层次遍历.html">
+            
+                    
+                    107 二叉树的层次遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.7" data-path="108 将有序数组转换为二叉搜索树.html">
+            
+                <a href="108 将有序数组转换为二叉搜索树.html">
+            
+                    
+                    108 将有序数组转换为二叉搜索树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.8" data-path="110 平衡二叉树.html">
+            
+                <a href="110 平衡二叉树.html">
+            
+                    
+                    110 平衡二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.9" data-path="111 二叉树的最小深度.html">
+            
+                <a href="111 二叉树的最小深度.html">
+            
+                    
+                    111 二叉树的最小深度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.10" data-path="1122 数组的相对排序.html">
+            
+                <a href="1122 数组的相对排序.html">
+            
+                    
+                    1122 数组的相对排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.11" data-path="118 杨辉三角.html">
+            
+                <a href="118 杨辉三角.html">
+            
+                    
+                    118 杨辉三角
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.12" data-path="13 罗马数字转整数.html">
+            
+                <a href="13 罗马数字转整数.html">
+            
+                    
+                    13 罗马数字转整数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.13" data-path="1370 上升下降字符串.html">
+            
+                <a href="1370 上升下降字符串.html">
+            
+                    
+                    1370 上升下降字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.14" data-path="14 最长公共前缀.html">
+            
+                <a href="14 最长公共前缀.html">
+            
+                    
+                    14 最长公共前缀
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.15" data-path="20 有效的括号.html">
+            
+                <a href="20 有效的括号.html">
+            
+                    
+                    20 有效的括号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.16" data-path="204 计数质数.html">
+            
+                <a href="204 计数质数.html">
+            
+                    
+                    204 计数质数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.17" data-path="21 合并两个有序链表.html">
+            
+                <a href="21 合并两个有序链表.html">
+            
+                    
+                    21 合并两个有序链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.18" data-path="217 存在重复元素.html">
+            
+                <a href="217 存在重复元素.html">
+            
+                    
+                    217 存在重复元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.19" data-path="242 有效的字母异位词.html">
+            
+                <a href="242 有效的字母异位词.html">
+            
+                    
+                    242 有效的字母异位词
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.20" data-path="26 删除排序数组中的重复项.html">
+            
+                <a href="26 删除排序数组中的重复项.html">
+            
+                    
+                    26 删除排序数组中的重复项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.21" data-path="27 移除元素.html">
+            
+                <a href="27 移除元素.html">
+            
+                    
+                    27 移除元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.22" data-path="28 实现strStr.html">
+            
+                <a href="28 实现strStr.html">
+            
+                    
+                    28 实现strStr
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.23" data-path="283 移动零.html">
+            
+                <a href="283 移动零.html">
+            
+                    
+                    283 移动零
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.24" data-path="35 搜索插入位置.html">
+            
+                <a href="35 搜索插入位置.html">
+            
+                    
+                    35 搜索插入位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.25" data-path="38 外观数列.html">
+            
+                <a href="38 外观数列.html">
+            
+                    
+                    38 外观数列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.26" data-path="53 最大子序和.html">
+            
+                <a href="53 最大子序和.html">
+            
+                    
+                    53 最大子序和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.27" data-path="58 最后一个单词的长度.html">
+            
+                <a href="58 最后一个单词的长度.html">
+            
+                    
+                    58 最后一个单词的长度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.28" data-path="66 加一.html">
+            
+                <a href="66 加一.html">
+            
+                    
+                    66 加一
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.29" data-path="67 二进制求和.html">
+            
+                <a href="67 二进制求和.html">
+            
+                    
+                    67 二进制求和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.30" data-path="69 x的平方根.html">
+            
+                <a href="69 x的平方根.html">
+            
+                    
+                    69 x的平方根
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.31" data-path="7 整数反转.html">
+            
+                <a href="7 整数反转.html">
+            
+                    
+                    7 整数反转
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.32" data-path="70 爬楼梯.html">
+            
+                <a href="70 爬楼梯.html">
+            
+                    
+                    70 爬楼梯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.33" data-path="83 删除链表中的重复元素.html">
+            
+                <a href="83 删除链表中的重复元素.html">
+            
+                    
+                    83 删除链表中的重复元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.34" data-path="860 柠檬水找零.html">
+            
+                <a href="860 柠檬水找零.html">
+            
+                    
+                    860 柠檬水找零
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.35" data-path="88 合并两个有序数组.html">
+            
+                <a href="88 合并两个有序数组.html">
+            
+                    
+                    88 合并两个有序数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.36" data-path="9 回文数.html">
+            
+                <a href="9 回文数.html">
+            
+                    
+                    9 回文数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.37" data-path="976 三角形的最大周长.html">
+            
+                <a href="976 三角形的最大周长.html">
+            
+                    
+                    976 三角形的最大周长
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Hard/">
+            
+                <a href="../Hard/">
+            
+                    
+                    Hard
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../Hard/164 最大间距.html">
+            
+                <a href="../Hard/164 最大间距.html">
+            
+                    
+                    164 最大间距
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../Hard/321 拼接最大数.html">
+            
+                <a href="../Hard/321 拼接最大数.html">
+            
+                    
+                    321 拼接最大数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Medium/">
+            
+                <a href="../Medium/">
+            
+                    
+                    Medium
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../Medium/2 两数相加.html">
+            
+                <a href="../Medium/2 两数相加.html">
+            
+                    
+                    2 两数相加
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../Medium/222 完全二叉树的结点个数.html">
+            
+                <a href="../Medium/222 完全二叉树的结点个数.html">
+            
+                    
+                    222 完全二叉树的结点个数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="../Medium/3 无重复字符的最长子串.html">
+            
+                <a href="../Medium/3 无重复字符的最长子串.html">
+            
+                    
+                    3 无重复字符的最长子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" data-path="../Medium/316 去除重复字母.html">
+            
+                <a href="../Medium/316 去除重复字母.html">
+            
+                    
+                    316 去除重复字母
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5" data-path="../Medium/328 奇偶链表.html">
+            
+                <a href="../Medium/328 奇偶链表.html">
+            
+                    
+                    328 奇偶链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6" data-path="../Medium/34 在排序数组中查找元素的第一个和最后一个位置.html">
+            
+                <a href="../Medium/34 在排序数组中查找元素的第一个和最后一个位置.html">
+            
+                    
+                    34 在排序数组中查找元素的第一个和最后一个位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7" data-path="../Medium/402 移掉K位数字.html">
+            
+                <a href="../Medium/402 移掉K位数字.html">
+            
+                    
+                    402 移掉K位数字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8" data-path="../Medium/406 根据身高重建队列.html">
+            
+                <a href="../Medium/406 根据身高重建队列.html">
+            
+                    
+                    406 根据身高重建队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.9" data-path="../Medium/452 用最少数量的箭引爆气球.html">
+            
+                <a href="../Medium/452 用最少数量的箭引爆气球.html">
+            
+                    
+                    452 用最少数量的箭引爆气球
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.10" data-path="../Medium/454 四数相加 II.html">
+            
+                <a href="../Medium/454 四数相加 II.html">
+            
+                    
+                    454 四数相加 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.11" data-path="../Medium/49 字母异位词分组.html">
+            
+                <a href="../Medium/49 字母异位词分组.html">
+            
+                    
+                    49 字母异位词分组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.12" data-path="../Medium/5 最长回文子串.html">
+            
+                <a href="../Medium/5 最长回文子串.html">
+            
+                    
+                    5 最长回文子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.13" data-path="../Medium/50 Pow x, n .html">
+            
+                <a href="../Medium/50 Pow x, n .html">
+            
+                    
+                    50 Pow X N
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.14" data-path="../Medium/62 不同路径.html">
+            
+                <a href="../Medium/62 不同路径.html">
+            
+                    
+                    62 不同路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.15" data-path="../Medium/649 Dota2 参议院.html">
+            
+                <a href="../Medium/649 Dota2 参议院.html">
+            
+                    
+                    649 Dota2 参议院
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.16" data-path="../Medium/659 分割数组为连续子序列.html">
+            
+                <a href="../Medium/659 分割数组为连续子序列.html">
+            
+                    
+                    659 分割数组为连续子序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.17" data-path="../Medium/767 重构字符串.html">
+            
+                <a href="../Medium/767 重构字符串.html">
+            
+                    
+                    767 重构字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.18" data-path="../Medium/861 翻转矩阵后的得分.html">
+            
+                <a href="../Medium/861 翻转矩阵后的得分.html">
+            
+                    
+                    861 翻转矩阵后的得分
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >28 实现strStr</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x9898;&#x76EE;"><b>1. </b>&#x9898;&#x76EE;</a></li><li><span class="title-icon "></span><a href="#&#x89E3;&#x9898;&#x601D;&#x8DEF;"><b>2. </b>&#x89E3;&#x9898;&#x601D;&#x8DEF;</a></li><li><span class="title-icon "></span><a href="#&#x4EE3;&#x7801;"><b>3. </b>&#x4EE3;&#x7801;</a></li><ul><li><span class="title-icon "></span><a href="#kmp"><b>3.1. </b>KMP</a></li><li><span class="title-icon "></span><a href="#hash"><b>3.2. </b>HASH</a></li></ul></ul></div><a href="#&#x9898;&#x76EE;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x9898;&#x76EE;"><a name="&#x9898;&#x76EE;" class="anchor-navigation-ex-anchor" href="#&#x9898;&#x76EE;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x9898;&#x76EE;</h1>
+<p>&#x5B9E;&#x73B0; strStr() &#x51FD;&#x6570;&#x3002;</p>
+<p>&#x7ED9;&#x5B9A;&#x4E00;&#x4E2A; haystack &#x5B57;&#x7B26;&#x4E32;&#x548C;&#x4E00;&#x4E2A; needle &#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x5728; haystack &#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x627E;&#x51FA; needle &#x5B57;&#x7B26;&#x4E32;&#x51FA;&#x73B0;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E; (&#x4ECE;0&#x5F00;&#x59CB;)&#x3002;&#x5982;&#x679C;&#x4E0D;&#x5B58;&#x5728;&#xFF0C;&#x5219;&#x8FD4;&#x56DE;  -1&#x3002;</p>
+<p>&#x793A;&#x4F8B; 1:
+&#x8F93;&#x5165;: haystack = &quot;hello&quot;, needle = &quot;ll&quot;
+&#x8F93;&#x51FA;: 2</p>
+<p>&#x793A;&#x4F8B; 2:
+&#x8F93;&#x5165;: haystack = &quot;aaaaa&quot;, needle = &quot;bba&quot;
+&#x8F93;&#x51FA;: -1</p>
+<p>&#x8BF4;&#x660E;:</p>
+<p>&#x5F53; needle &#x662F;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x5E94;&#x5F53;&#x8FD4;&#x56DE;&#x4EC0;&#x4E48;&#x503C;&#x5462;&#xFF1F;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x5728;&#x9762;&#x8BD5;&#x4E2D;&#x5F88;&#x597D;&#x7684;&#x95EE;&#x9898;&#x3002;
+&#x5BF9;&#x4E8E;&#x672C;&#x9898;&#x800C;&#x8A00;&#xFF0C;&#x5F53; needle &#x662F;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#x6211;&#x4EEC;&#x5E94;&#x5F53;&#x8FD4;&#x56DE; 0 &#x3002;&#x8FD9;&#x4E0E;C&#x8BED;&#x8A00;&#x7684; strstr() &#x4EE5;&#x53CA; Java&#x7684; indexOf() &#x5B9A;&#x4E49;&#x76F8;&#x7B26;&#x3002;</p>
+<p>&#x6765;&#x6E90;&#xFF1A;&#x529B;&#x6263;&#xFF08;LeetCode&#xFF09;
+&#x94FE;&#x63A5;&#xFF1A;<a href="https://leetcode-cn.com/problems/implement-strstr" target="_blank">https://leetcode-cn.com/problems/implement-strstr</a>
+&#x8457;&#x4F5C;&#x6743;&#x5F52;&#x9886;&#x6263;&#x7F51;&#x7EDC;&#x6240;&#x6709;&#x3002;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x8054;&#x7CFB;&#x5B98;&#x65B9;&#x6388;&#x6743;&#xFF0C;&#x975E;&#x5546;&#x4E1A;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#x3002;</p>
+<h1 id="&#x89E3;&#x9898;&#x601D;&#x8DEF;"><a name="&#x89E3;&#x9898;&#x601D;&#x8DEF;" class="anchor-navigation-ex-anchor" href="#&#x89E3;&#x9898;&#x601D;&#x8DEF;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x89E3;&#x9898;&#x601D;&#x8DEF;</h1>
+<p>&#x770B;&#x5230;&#x8FD9;&#x9898;&#x7B2C;&#x4E00;&#x53CD;&#x5E94;&#x5C31;&#x662F;kmp</p>
+<p>&#x51B7;&#x843D;&#x4E86;hash&#xFF0C;&#x5509;</p>
+<h1 id="&#x4EE3;&#x7801;"><a name="&#x4EE3;&#x7801;" class="anchor-navigation-ex-anchor" href="#&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x4EE3;&#x7801;</h1>
+<h2 id="kmp"><a name="kmp" class="anchor-navigation-ex-anchor" href="#kmp"><i class="fa fa-link" aria-hidden="true"></i></a>3.1. KMP</h2>
+<pre class="language-"><code class="lang-c++">class Solution {
+public:
+    const static int MAXN=1e5+5;
+    int Next[MAXN]; 
+    void getNext(string needle){
+        int k=Next[0]=-1;
+        int len=needle.size(),j=0;
+
+        while(j&lt;len){
+            if(k==-1||needle[k]==needle[j]) Next[++j]=++k;
+            else k=Next[k];
+        }
+    }
+
+    int kmp(string haystack, string needle){
+        int i=0,j=0,pos=-1;
+        int lenH=haystack.size(),lenN=needle.size();
+        while(i&lt;lenH){
+            if(j==-1||haystack[i]==needle[j]) ++i,++j;
+            else j=Next[j];
+            if(j==lenN) {
+                pos=i-j;
+                break;
+            }
+        }
+        return pos;
+    }
+
+    int strStr(string haystack, string needle) {
+        getNext(needle);
+        if(needle.size()==0) return 0;
+        else return kmp(haystack,needle);
+    }
+};
+</code></pre>
+<h2 id="hash"><a name="hash" class="anchor-navigation-ex-anchor" href="#hash"><i class="fa fa-link" aria-hidden="true"></i></a>3.2. HASH</h2>
+<p>&#x6EDA;&#x52A8;&#x54C8;&#x5E0C;&#x3002;&#x8FD1;&#x4F3C;&#x4E0E;&#x5B98;&#x65B9;&#x9898;&#x89E3;&#x4E2D;&#x63D0;&#x5230;&#x7684;Rabin-Karp&#x7B97;&#x6CD5;&#x3002;</p>
+<pre class="language-"><code class="lang-C++">#define ull unsigned long long
+class Solution {
+public:
+    const static ull B = 1e9+7;
+    int strStr(string haystack, string needle) {
+       int lenH=haystack.size(),lenN=needle.size();
+       if(lenN==0) return 0;
+       ull t=1,hashH=0,hashN=0;
+       for(int i=1;i&lt;=lenN;++i) t*=B;//B&#x7684;lenN&#x6B21;&#x65B9;
+       //&#x8BA1;&#x7B97;haystack&#x957F;&#x5EA6;&#x4E3A;lenN&#x7684;&#x524D;&#x7F00;&#x7684;&#x54C8;&#x5E0C;&#x503C; &#x548C; needle&#x7684;&#x54C8;&#x5E0C;&#x503C; 
+       for(int i=0;i&lt;lenN;++i) hashH=hashH*B+haystack[i],hashN=hashN*B+needle[i];
+       //&#x5BF9;haystack&#x4E0D;&#x65AD;&#x53F3;&#x79FB;&#x4E00;&#x4F4D;&#xFF0C;&#x66F4;&#x65B0;&#x54C8;&#x5E0C;&#x503C;&#x5E76;&#x5224;&#x65AD; 
+       for(int i=0;i+lenN&lt;=lenH;++i){
+           if(hashH==hashN) return i;
+           if(i+lenN&lt;lenH) hashH=hashH*B+haystack[i+lenN]-haystack[i]*t;
+       } 
+       return -1;
+    }
+};
+</code></pre>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://github.com/wangzhebufangqi" target="_blank">wangzhebufangqi</a>&#xFF0C;&#x4F7F;&#x7528;<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">&#x77E5;&#x8BC6;&#x5171;&#x4EAB; &#x7F72;&#x540D;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 4.0&#x534F;&#x8BAE;</a>&#x53D1;&#x5E03; </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> <i>updated</i> 2020-12-14 12:42:36 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="27 移除元素.html" class="navigation navigation-prev " aria-label="Previous page: 27 移除元素">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="283 移动零.html" class="navigation navigation-next " aria-label="Next page: 283 移动零">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"28 实现strStr","level":"1.2.1.22","depth":3,"next":{"title":"283 移动零","level":"1.2.1.23","depth":3,"path":"My Solution/Easy/283 移动零.md","ref":"My Solution/Easy/283 移动零.md","articles":[]},"previous":{"title":"27 移除元素","level":"1.2.1.21","depth":3,"path":"My Solution/Easy/27 移除元素.md","ref":"My Solution/Easy/27 移除元素.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","github-buttons","editlink","copy-code-button","page-footer-ex","anchor-navigation-ex","expandable-chapters-small","prism","-highlight","-lunr","-search","search-pro","donate","splitter","disqus","baidu-tongji-with-multiple-channel","katex-ng","advanced-emoji"],"ignores":["_book","node_modules"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css"],"lang":{"flow":"typescript"}},"disqus":{"useIdentifier":false,"shortName":"wangzhebufangqi"},"editlink":{"label":"Edit This Page","multilingual":false,"base":"https://github.com/wangzhebufangqi/Leetcode/blob/main"},"baidu-tongji-with-multiple-channel":{"multipleChannelConfig":{},"url":"https://hm.baidu.com/hm.js","token":"73be72a36cee8ef8daa9843c7861cecc"},"page-footer-ex":{"copyright":"By [wangzhebufangqi](https://github.com/wangzhebufangqi)，使用[知识共享 署名-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"<i>updated</i>"},"splitter":{},"search-pro":{},"donate":{"alipay":"https://gitee.com/wangzhebufangqi/PictureBed/raw/master/20201122131820.png","alipayText":"支付宝捐赠","button":"Donate","title":"","wechat":"https://gitee.com/wangzhebufangqi/PictureBed/raw/master/20201122131942.png","wechatText":"微信捐赠"},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"katex-ng":{},"github-buttons":{"buttons":[{"user":"wangzhebufangqi","repo":"Leetcode","type":"star","size":"small"}]},"expandable-chapters-small":{},"copy-code-button":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"wangzhebufangqi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Summary","links":{"sidebar":{"Home":"https://wangzhebufangqi.github.io"}},"gitbook":"*"},"file":{"path":"My Solution/Easy/28 实现strStr.md","mtime":"2020-12-14T12:42:36.192Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-14T12:43:41.787Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-baidu-tongji-with-multiple-channel/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
